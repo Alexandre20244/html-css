@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(70, 68, 68);
+}
+#foto01{
+    border: 1px solid none;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(95, 94, 94);
+    border-radius: 5px;
+}
+
+#foto02{
+    border: 1px solid none;
+    margin: 50px right;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#menu{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(29, 28, 28);
+    margin-left: 50%;
+    
+   
+    
+
+}
+
+#menu > a:hover{
+    background-color: rgb(52, 136, 233);
+}
+
+#foto02{
+    background-color: rgb(43, 42, 42);
+}
+
+#follow01{
+    border: solid;
+    border-color: rgb(169, 104, 243);
+    width: 50px;
+    background-color:rgb(169, 104, 243) ;
+    border-radius: 5px;
+    box-shadow: rgb(177, 114, 248);
+    padding: 2px 2px 2px 2px;
+}
+

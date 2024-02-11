@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros tipos de formulário</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+            
+        }
+
+        h1{
+            font-size:x-large;
+            color: rgb(32, 32, 32);
+            font-weight: normal;
+        }
+
+        #Email,#enviar,#telephone{
+            padding: 11px;
+            border-radius: 15px;
+            margin-top: 5px;
+            border: none;
+            
+        }
+
+        #Email{
+            box-shadow: 1px 1px 2px 2px gray;
+            outline: none;
+        }
+
+        #Email:hover{
+            box-shadow:1px 1px 2px 2px red;
+        }
+        #telephone:hover{
+            box-shadow:1px 1px 2px 2px red;
+        }
+
+        #telephone{
+            box-shadow: 1px 1px 2px 2px gray;
+            outline: none;
+        }
+
+        #enviar{
+            padding: 5px 10px;
+            width:191px;
+            height: 27;
+            font-size: large;
+            outline: none;
+            box-shadow: 1px 1px 2px 2px gray;
+            color: #555;
+        }
+
+        form{
+            background-color: rgb(218, 216, 216);
+            width:fit-content;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 1px 1px black;
+            margin: auto;
+            outline: none;
+            color: #555;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <h1>Tela de login
+        <br>simples
+    </h1>
+
+    <fieldset>
+        <legend>Tela de login</legend>
+        <form action="cadastro.php" method="POST" autocomplete="on">
+            <p>
+                <label for="Email">
+                    E-mail
+                </label>
+                <br><input type="email" name="mail" id="Email" placeholder="Digite seu melhor email" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="telephone">Phone Number</label>
+                <br><input type="tel" name="telefone" id="telephone" placeholder="(xx) xxx xxx xxx" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar" id="enviar">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>

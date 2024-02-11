@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: var(--font2);
+}
+
+:root{
+    --font1: verdana,Geneva,Tahoma,sans-serif;
+    --font2:Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+}
+
+html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+    
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top:50px;
+    font-variant: small-caps;
+    
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section p{
+    margin-bottom: 10px;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 1.2em;
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.218);
+    width: 400px;
+}
+
+section.imagem{
+    background-color: rgb(74, 73, 73);
+    color: white;
+    box-shadow: 1px 1px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    color:white;
+    text-align: center;
+}
+
+#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    text-shadow: 1px 1px 0px black;
+    
+    
+
+}
+
+#img02{
+    text-shadow: 1px 1px 0px black;
+    background-image: url('../imagens/background002.jpg');
+    
+}
+
+#img01 p{
+    padding-left: 5px;
+}
+
+#img02 p{
+    padding-left: 5px;
+}

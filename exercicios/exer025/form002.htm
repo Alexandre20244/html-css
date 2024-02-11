@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        ::placeholder{
+            color:rgb(88, 88, 88);
+        }
+
+        form{
+            margin: 25%;
+            background-color: rgb(238, 238, 238);
+            width: 25%;
+            padding: 15px;
+            height: 30vh;
+        }
+        div.elementos{
+           padding: 10x;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.py" method="POST" autocomplete="on">
+        <div class="elementos">
+            <p>
+                <label for="isu">Nome:</label>
+                <input type="text" name="usu" id="isu" autocomplete="name" required minlength="6" size="17" placeholder="nome do usuario">
+            </p>
+            <p>
+                <label for="pass">
+                    Palavra-passe:
+                </label>
+                <input type="password" name="palavraPasse" id="pass"placeholder="Digite a sua pass" required minlength="6" maxlength="20" size="10">
+            </p>
+    
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar dados">
+        </div>
+    </form>
+</body>
+</html>

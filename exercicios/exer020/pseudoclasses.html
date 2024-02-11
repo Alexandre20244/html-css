@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            background-color: lightgrey;
+            display: inline-block; /*esse pârametro serve pra deixar as divs ao lado de outra*/
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        /*um ponto (.) é uma classe*/
+        /* uma hastag (#) é um id */
+        /*Dois pontos (:) representa as pseudoclasses*/
+
+
+        /*As  pseudo-classes em css3 são utilizdas para aplicar estilos a elementos html com base em estados 
+        ou caracteriscas especificas que não podem ser selecionados con apenas simples seletores*/
+        div:hover {
+            background-color:yellow ;
+        }
+
+        #d2:hover{
+            background-color: aqua;
+        }
+        
+        </style>
+
+        
+</head>
+<body>
+    
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    
+</body>
+</html>

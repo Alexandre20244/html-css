@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border:1px solid black;
+            margin: auto;
+            margin-top: 50px;
+            border-collapse: collapse;
+        }
+        caption{
+            padding: 10px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        .corpo{
+            height: 400px;
+            background-color: rgb(122, 121, 121);
+        }
+
+        tfoot td{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption><label for="">English Lesson</label></caption>
+        <thead>
+            <td>let´s do it</td>
+            <td>are you ready?</td>
+            <td>are you hungry?</td>
+            <td>Do you speak English?</td>
+        </thead>
+
+        <tbody>
+            <td class="corpo"></td>
+        </tbody>
+
+        <tfoot>
+            <td>Preencha a tabela acima</td>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/Icon.ico" type="image/x-icon">
+    <title>mídeas em html</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imgs/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width:750px)" srcset="imgs/imagem-m.png" type="image/png"> 
+        <img src="imgs/imagem-g.png" alt="imagem flexível">  
+    </picture>
+
+
+
+    <h1>
+        Reproduzindo áudios
+    </h1>
+    <audio controls autoplay>
+        <source src="mídeas/04. Kelson Most Wanted - Tanto Faz (feat. Johnny Berry) (1).mp3" type="audio/mp3">
+        <source src="mídeas/. Kelson Most Wanted - Tanto Faz (feat. Johnny Berry) (1).mp3" type="audio/ogg">
+        <p>
+            infelizmente seu navegador não conseguiu reproduzir o áudio
+              
+            <a href="mídeas/. Kelson Most Wanted - Tanto Faz (feat. Johnny Berry) (1).mp3" target="_blank" rel="external">Download</a>
+        
+        </p>   
+    </audio>   
+    
+</body>
+</html>

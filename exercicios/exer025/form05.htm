@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs radio and checkbox</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset{
+            margin: 10px 0;
+            width: 75%;
+        }
+        legend{
+            text-align: center;
+            font-weight: bold;
+        }
+        input,label{
+            cursor: pointer;
+
+        }
+        input#btn-button{
+           background-color: #1da1f2;
+           color: white;
+           font-size: 16px;
+           text-decoration: none;
+           text-transform: uppercase;
+           border-radius: 5px;
+           border: none;
+           cursor: pointer;
+           padding: 10px 20px;
+    
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Informe seu desporto favorito</legend>
+            <input type="checkbox" name="Ifotebol" id="fotebol"><label for="fotebol">fotebol</label><br>
+            <input type="checkbox" name="Ibasquetebol" id="basquetebol" checked><label for="basquetebol">basquetebol</label><br>
+            <input type="checkbox" name="Ibox" id="box"><label for="box">box</label><br>
+            <input type="checkbox" name="Ijudo" id="judo"><label for="judo">judo</label><br>
+            <input type="checkbox" name="Ikarate" id="karate"><label for="karate">karate</label>
+    
+        </fieldset>
+    
+        <fieldset>
+            <legend>Informe seu sexo</legend>
+    
+            <input type="radio" name="sexo" id="masculino" checked>
+            <label for="masculino">masculino</label>
+    
+            <input type="radio" name="sexo" id="feminino">
+            <label for="feminino">feminino</label>
+    
+        </fieldset>
+    
+        <input type="submit" value="Enviar" id="btn-button">
+        <input type="reset" value="Limpar" id="btn-button">
+    </form>
+</body>
+</html>
